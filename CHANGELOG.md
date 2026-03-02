@@ -28,3 +28,4 @@
 - chore: dev update - February 25
 - chore: dev update - February 26
 - chore: dev update - March 1
+- chore: dev update - March 2
