@@ -1,0 +1,31 @@
+[project]
+name = "acc-legal-bot"
+version = "1.0.0"
+description = "Enterprise RAG for Accenture 10-K analysis"
+dependencies = [
+    "langchain==0.1.13",
+    "langchain-community==0.0.29",
+    "langchain-core==0.1.37",
+    "langchain-text-splitters==0.0.1",
+    "langchain-groq",
+    "qdrant-client==1.8.0",
+    "fastembed",
+    "pypdf==4.1.0",
+    "PyMuPDF==1.25.3",
+    "numpy==1.26.4",
+    "python-dotenv==1.0.1",
+    "pydantic>=2.5.0",
+    "sentence-transformers",
+    "google-generativeai",
+    "ragas",
+    "scikit-learn",
+    "fastapi>=0.135.1",
+    "uvicorn>=0.42.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "black",
+    "flake8",
+]

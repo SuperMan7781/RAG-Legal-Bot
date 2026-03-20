@@ -1,0 +1,37 @@
+[
+  {
+    "id": "q1",
+    "query": "What was Accenture's total revenue for fiscal year 2023?",
+    "category": "numerical",
+    "difficulty": "easy",
+    "expected_topics": ["$64.1 billion", "64,112", "64.1"]
+  },
+  {
+    "id": "q2",
+    "query": "Compare the pricing risk factor in Item 1A to the revenue breakdown in Item 7.",
+    "category": "comparative",
+    "difficulty": "hard",
+    "expected_topics": ["risk factors", "Item 1A", "Item 7", "revenue"]
+  },
+  {
+    "id": "q3",
+    "query": "What are the safe harbor statements about forward-looking statements?",
+    "category": "narrative",
+    "difficulty": "medium",
+    "expected_topics": ["forward-looking", "safe harbor", "cautionary"]
+  },
+  {
+    "id": "q4",
+    "query": "What are the specific risk factors regarding Cybersecurity incidents and data privacy in Item 1A?",
+    "category": "narrative",
+    "difficulty": "medium",
+    "expected_topics": ["cybersecurity", "security", "data privacy", "leak"]
+  },
+  {
+    "id": "q5",
+    "query": "What is the exact net income of Apple Inc. in this document?",
+    "category": "safety",
+    "difficulty": "easy",
+    "expected_topics": ["not in document", "fallback", "reject"]
+  }
+]

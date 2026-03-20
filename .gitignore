@@ -1,6 +1,41 @@
-venv/
+# ── Python ─────────────────────────────────────────────────────────────────
 __pycache__/
-qdrant_db/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Environment ─────────────────────────────────────────────────────────────
 .env
+.env.*
+venv/
+.venv/
+
+# ── Data & Generated Indices (large / regenerable) ──────────────────────────
 *.pdf
-*.pyc
+indexes/
+qdrant_db/
+fastembed_cache/
+
+# ── Node.js ─────────────────────────────────────────────────────────────────
+node_modules/
+package-lock.json
+
+# ── Logs & Runtime Artifacts ────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Lock Files ──────────────────────────────────────────────────────────────
+uv.lock
+
+# ── IDE / Editor ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
