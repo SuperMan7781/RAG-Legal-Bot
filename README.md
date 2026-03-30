@@ -5,7 +5,7 @@
 
 ---
 
-## Architecture at a Glance
+## Architecture at a Glance 
 
 ```
 Query → Structural Indexing → BM25 + Dense Retrieval → RRF Fusion → Cross-Encoder Reranking → LLM Generation
@@ -34,7 +34,7 @@ Query → Structural Indexing → BM25 + Dense Retrieval → RRF Fusion → Cros
 | Hybrid Recall@20 | **95%** |
 | Cross-Encoder NDCG@3 | **0.89** |
 | RAGAS Score (overall) | **0.91** |
-| Average Accuracy | **94.3%** |
+| Average Accuracy | **96.3+%** |
 | End-to-End Latency | **~1.1 s** |
 | Hallucination Rate | **< 2%** |
 
@@ -123,7 +123,7 @@ Acc_Legal_Bot/
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stacks
 
 | Layer | Technology |
 |-------|------------|
