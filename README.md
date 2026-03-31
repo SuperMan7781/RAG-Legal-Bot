@@ -158,3 +158,7 @@ streamlit run app.py
 - [`docs/RAG_WORKFLOW.md`](./docs/RAG_WORKFLOW.md) — Full 1400-line deep-dive into every pipeline stage with ASCII architecture diagrams, code samples, and benchmark data.
 - [`docs/IMPLEMENTATION.md`](./docs/IMPLEMENTATION.md) — Implementation notes and technical decisions.
 - [`docs/ENTERPRISE_COMPARISON.md`](./docs/ENTERPRISE_COMPARISON.md) — Benchmarks comparing this pipeline vs. naive RAG baselines.
+
+---
+
+*Last updated: March 2026*
